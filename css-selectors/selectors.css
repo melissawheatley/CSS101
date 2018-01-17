@@ -29,17 +29,17 @@ nav li {
     color: blue;
 }
 
-.red-bg {
+.red + h4{
     background-color: red;
     padding: 3px;
 }
 
-.blue-bg {
+.blue + h4{
     background-color: blue;
     padding: 3px;
 }
 
-.grandparent h4{
+.grandparent > h4{
     border: 1px dotted green;
     border-radius: 5px;
     padding: 3px
